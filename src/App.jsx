@@ -10,7 +10,7 @@ function App() {
         <img src={baner} className="rounded-lg w-full" alt="Omelette recipe" />
         
         <section className="my-6">
-          <h1 className="md:text-4xl text-3xl font-young text-gray-900 font-bold">Simple Omelette Recipe</h1>
+          <h1 className="md:text-4xl text-3xl font-young text-gray-900 ">Simple Omelette Recipe</h1>
           <p className="mt-4 md:text-[16px] text-sm text-gray-600">
             An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
           </p>

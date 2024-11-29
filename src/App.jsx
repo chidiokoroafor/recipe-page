@@ -10,8 +10,8 @@ function App() {
         <img src={baner} className="rounded-lg w-full" alt="Omelette recipe" />
         
         <section className="my-6">
-          <h1 className="text-4xl font-young text-gray-900 font-bold">Simple Omelette Recipe</h1>
-          <p className="mt-4 text-[16px] text-gray-600">
+          <h1 className="md:text-4xl text-3xl font-young text-gray-900 font-bold">Simple Omelette Recipe</h1>
+          <p className="mt-4 md:text-[16px] text-sm text-gray-600">
             An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
           </p>
         </section>
@@ -32,7 +32,7 @@ function App() {
         </section>
           
         <section className="mb-6">
-          <h2 className="font-young text-3xl text-Brown-800 my-6">Ingredients</h2>
+          <h2 className="font-young text-2xl md:text-3xl text-Brown-800 my-6">Ingredients</h2>
           <ul className="list-disc marker:text-Brown-800 ml-6 font-outfit flex flex-col space-y-2 text-gray-600">
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
@@ -43,8 +43,8 @@ function App() {
         </section>
           <hr />
         <section className="my-6">
-          <h2 className="font-young text-3xl mb-4 text-Brown-800 ">Instructions</h2>
-          <ol className="list-decimal font-outfit marker:text-Brown-800  marker:font-bold ml-5 flex flex-col space-y-2 text-gray-600 text-[16px]">
+          <h2 className="font-young text-2xl md:text-3xl mb-4 text-Brown-800 ">Instructions</h2>
+          <ol className="list-decimal font-outfit marker:text-Brown-800  marker:font-bold ml-5 flex flex-col space-y-2 text-gray-600 md:text-[16px] text-sm">
             {instructions.map((inst) => {
               return (
                  <li key={inst.heading}>
@@ -56,8 +56,8 @@ function App() {
           </ol>
         </section>
           <hr />
-        <section className="mt-5">
-          <h2 className="font-young text-3xl mb-4 text-Brown-800 ">Nutrition</h2>
+        <section className="mt-5 md:text-[16px] text-sm">
+          <h2 className="font-young text-2xl md:text-3xl mb-4 text-Brown-800 ">Nutrition</h2>
           <p className=" font-outfit  text-gray-600">
             The table below shows nutritional values per serving without the additional fillings.
           </p>
